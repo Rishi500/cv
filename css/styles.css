@@ -1,22 +1,32 @@
-body {
-  background-color: #d0e8f2;
+.top-container {
+  text-align: center;
+  background-color: #a7c5eb;
+  position: relative;
+  padding-top: 100px;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #79a3b1;
-  border-width: 5px;
-  width: 30px;
+.cloud2 {
+  position: absolute;
+  left: 300px;
 }
-h1{
-  color: #456268;
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
-h3{
-  color: #456268;
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  background-color: #f6ecf0;
 }
-img{
-border: 1px solid #456268;
-padding: 2px;
-border-radius: 40% 0% 40% 0%;
+
+h1 {
+  font-family: 'Sacramento', cursive;
+}
+.profilepic, .skill1, .skill2{
+  border-radius: 100%;
+  height: 200px;
 }
