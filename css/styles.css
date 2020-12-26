@@ -34,3 +34,7 @@ h1 {
   border: 2px solid #cd5d7d;
   padding: 1px;
 }
+div{
+  padding-left: 4px;
+  padding-right: 4px;
+}
