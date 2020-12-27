@@ -81,6 +81,8 @@ a {
   text-align: left;
   line-height: 1.5;
   color: #456268;
+  padding: 20px;
+  border: 1px solid #cd5d7d;
 }
 hr{
   border-style: dotted;
