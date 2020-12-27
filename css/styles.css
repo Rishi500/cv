@@ -38,6 +38,7 @@ h1 {
   border-radius: 100%;
   border: 2px solid #cd5d7d;
   padding: 1px;
+  margin: 15px;
 }
 
 .profilepic {
@@ -45,13 +46,13 @@ h1 {
 }
 
 .skill1, .skill3, .youtube,.pincode {
-  width: 12%;
+  width: 15%;
   float: left;
   margin-right: 30px;
 }
 
 .skill2, .gate,.imageformatting, .facerec {
-  width: 12%;
+  width: 15%;
   float: right;
   margin-left: 30px;
 }
@@ -82,8 +83,10 @@ a {
   text-align: left;
   line-height: 1.5;
   color: #456268;
-  padding: 30px 10px 30px 10px;
+  padding: 30px 15px 30px 15px;
   border: 1px solid #cd5d7d;
+  overflow:hidden;
+  font-size: 1.4em;
 }
 hr{
   border-style: dotted;
@@ -128,7 +131,7 @@ hr{
 }
 footer{
   background-color: #d0e8f2;
-  padding-top: 30px;
+  padding-top: 10px;
   position: absolute;
   margin: auto;
   width: 100%;
@@ -140,12 +143,6 @@ footer{
 }
 .copyright{
   color: #456268;
-  padding: 30px;
+  padding: 0;
   font-size: 1.1em;
-}
-#medium-widget{
-  margin: auto;
-  width: 50%%;
-  text-align: center;
-  background-color: grey;
 }
