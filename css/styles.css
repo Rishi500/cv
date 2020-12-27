@@ -34,7 +34,7 @@ h1 {
   color: #456268;
 }
 
-.profilepic, .skill1, .skill2 {
+.profilepic, .skill1, .skill2, .skill3, .gate, .youtube, .pincode, .imageformatting, .facerec{
   border-radius: 100%;
   border: 2px solid #cd5d7d;
   padding: 1px;
@@ -44,14 +44,14 @@ h1 {
   height: 50%;
 }
 
-.skill1 {
-  width: 25%;
+.skill1, .skill3, .youtube,.pincode {
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
 
-.skill2 {
-  width: 25%;
+.skill2, .gate,.imageformatting, .facerec {
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
@@ -75,13 +75,13 @@ a {
   color: #79a3b1;
 }
 
-.skill-row {
+.skill-row, .achievement-row{
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 30px auto 30px auto;
   text-align: left;
   line-height: 1.5;
   color: #456268;
-  padding: 20px;
+  padding: 15px;
   border: 1px solid #cd5d7d;
 }
 hr{
