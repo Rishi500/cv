@@ -57,6 +57,7 @@ h1 {
 }
 
 
+
 .my-title {
   font-size: 1.2rem;
 }
@@ -141,4 +142,10 @@ footer{
   color: #456268;
   padding: 30px;
   font-size: 1.1em;
+}
+#medium-widget{
+  margin: auto;
+  width: 50%%;
+  text-align: center;
+  background-color: grey;
 }
